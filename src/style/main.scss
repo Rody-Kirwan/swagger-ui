@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
 }
+@import 'fonts';
 
 .swagger-ui
 {
@@ -8,7 +9,6 @@ html {
     @import 'mixins';
     @import 'variables';
     @import 'type';
-    @import 'base';
     @import 'layout';
     @import 'buttons';
     @import 'form';
@@ -20,7 +20,6 @@ html {
     @import 'information';
     @import 'authorize';
     @import 'errors';
-    @include text_body();
     @import 'split-pane-mode';
     @import 'markdown';
 }
